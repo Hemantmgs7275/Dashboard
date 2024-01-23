@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:10px;
+    font-family:  'Playfair Display', serif,sans-serif;
+}
+body{
+    background-color: #191947;
+}
+
+
+/* SVG CSS CODE */
+.custom-shape-divider-bottom-1705933699 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1705933699 svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-bottom-1705933699 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/* Header Css Code */
+#header{
+    width: 100%;
+    background-color: transparent;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 2rem;
+}
+
+.nav-bar{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10rem;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+}
+.nav-bar li{
+    width: 15%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.nav-bar li a{
+    width: 100%;
+    line-height: 4.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #eee;
+}
+.nav-bar li a:hover{
+    color: black;
+    background-color: paleturquoise;
+    box-shadow: -1px 1px grey;
+    border-radius: 1.5rem;
+}
+.button{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.btn:hover{
+    background-color: palegreen;
+}
+#content{
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: repeat(2,1fr);
+    font-size: 1.5rem;
+}
+.para1, .para2{
+    color: #eee;
+}
+.para1 h2, .para1 a{
+    color: aqua;
+}
+#form{
+    margin: auto;
+    grid-row: span 4;
+    width: 50%;
+    background-color: rgba(245, 245, 245, 0.89);
+    box-shadow: -2px -2px 10px 2px lightgrey;
+    padding:2rem 1.5rem;
+    border-radius: 1rem;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.form-control label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.form-control input{
+    height: 1.5rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+.form-control textarea{
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+#submit{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    border-radius: 1rem;
+    line-height: 1rem;
+}
+
+#website{
+    position: absolute;
+    width: 60rem;
+    bottom: 0;
+    left: 15rem;
+}
